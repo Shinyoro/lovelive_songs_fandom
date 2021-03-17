@@ -1,31 +1,31 @@
 ![logo](https://github.com/Shinyoro/lovelive_songs_fandom/blob/master/logo.jpg)
 
 # Love Live! songs from Fandom Wiki
-Python script that allows you to download all songs from the site fandom.com
+A Python script that downloads songs from different groups Love Live! from the site love-live.fandom.com.
 
 ## Requirements
-  * [Python 3.X](https://python.org/)
-  * [requests](https://pypi.org/project/requests/)
-  * [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
-  * [lxml](https://pypi.org/project/lxml/)
+  * [Python 3.X](https://python.org/);
+  * [requests](https://pypi.org/project/requests/);
+  * [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/);
+  * [lxml](https://pypi.org/project/lxml/).
 
 ## Executable files
-  * [Releases](https://github.com/Shinyoro/lovelive_songs_fandom/releases)
+  * [Releases](https://github.com/Shinyoro/lovelive_songs_fandom/releases).
 
 ## Usage
 
 ### How to download songs
  1. Clone the repository:
 
-    `git clone https://github.com/Shinyoro/lovelive_songs_fandom/`
+    `git clone https://github.com/Shinyoro/lovelive_songs_fandom/`.
 
  2. Install required dependencies:
 
-    `python3 -m pip install -r requirements.txt`
+    `python3 -m pip install -r requirements.txt`.
 
  3. Run the source code file `lovelive_songs_fandom.py`:
 
-    `python3 lovelive_songs_fandom.py`
+    `python3 lovelive_songs_fandom.py`.
 
  4. You will be prompted to update the song list.
     To run the script for the first time, be sure to agree,
@@ -37,10 +37,10 @@ Python script that allows you to download all songs from the site fandom.com
  6. Determine if you would like to download songs with art. FFmpeg utility required. Default "No".
 
  7. Select the groups of songs you want to download.
-    If you want to download everything, leave the field empty
+    If you want to download everything, leave the field empty.
 
 This will start retrieving song link lists from all groups.
-Unavailable links are written to the file `error_links.txt`
+Unavailable links are written to the file `error_links.txt`.
 
 After receiving the list, wait until all the songs are installed in the "Love Live!" folder next to the script.
 Please note that installed songs will not be downloaded again.
